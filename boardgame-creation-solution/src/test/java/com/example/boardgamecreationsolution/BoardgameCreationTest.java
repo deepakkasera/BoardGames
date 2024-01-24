@@ -13,7 +13,6 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
 class BoardGameCreationTest {
     @Test
     public void testBoardGameClass() {

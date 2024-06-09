@@ -1,18 +1,21 @@
-package com.example.boardgamecreationsolution;
+package com.example.boardgamecreation;
 
-public class SnakeLadderBoardGame extends BoardGame {
+public class SnakeLadderBoardGame {
+    private String boardGameName;
 
     public SnakeLadderBoardGame(String boardGameName) {
-        super(boardGameName);
+        this.boardGameName = boardGameName;
     }
 
-    @Override
+    public String getBoardGameName() {
+        return boardGameName;
+    }
+
     public void playGame() {
         //Implement logic for playing Snake & Ladder
         System.out.println("Playing Snake & Ladder");
     }
 
-    @Override
     public GameType gameType() {
         return GameType.SNAKE_LADDER;
     }

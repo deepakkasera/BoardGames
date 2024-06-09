@@ -9,6 +9,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/boardgame-creation-solution/pom.xml" />
+        <option value="$PROJECT_DIR$/boardgame-creation-starter/pom.xml" />
       </list>
     </option>
   </component>

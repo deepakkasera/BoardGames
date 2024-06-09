@@ -1,4 +1,4 @@
-package com.example.boardgamecreationsolution;
+package com.example.boardgamecreation;
 
 public abstract class BoardGame {
     private String boardGameName;

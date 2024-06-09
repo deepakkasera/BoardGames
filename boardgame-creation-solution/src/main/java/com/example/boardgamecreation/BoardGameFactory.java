@@ -1,4 +1,4 @@
-package com.example.boardgamecreationsolution;
+package com.example.boardgamecreation;
 
 public class BoardGameFactory {
     public static BoardGame createGame(GameType gameType, String boardGameName) {

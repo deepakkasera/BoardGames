@@ -1,4 +1,4 @@
-package com.example.boardgamecreationstarter;
+package com.example.boardgamecreation;
 
 public class ChessBoardGame {
     private String boardGameName;

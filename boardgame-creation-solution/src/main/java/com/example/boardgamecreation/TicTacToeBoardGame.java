@@ -1,15 +1,11 @@
-package com.example.boardgamecreationstarter;
+package com.example.boardgamecreation;
 
 public class TicTacToeBoardGame extends BoardGame {
-    private String boardGameName;
     public TicTacToeBoardGame(String boardGameName) {
-        this.boardGameName = boardGameName;
+        super(boardGameName);
     }
 
-    public String getBoardGameName() {
-        return boardGameName;
-    }
-
+    @Override
     public void playGame() {
         //Implement logic for playing Tic Tac Toe
         System.out.println("Playing Tic Tac Toe");

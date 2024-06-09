@@ -1,4 +1,4 @@
-package com.example.boardgamecreationsolution;
+package com.example.boardgamecreation;
 
 public class ChessBoardGame extends BoardGame {
     public ChessBoardGame(String boardGameName) {

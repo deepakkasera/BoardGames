@@ -1,9 +1,8 @@
-package com.example.boardgamecreationsolution;
+package com.example.boardgamecreation;
 
 import org.junit.jupiter.api.Test;
 import org.reflections.Reflections;
 import org.reflections.scanners.SubTypesScanner;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
